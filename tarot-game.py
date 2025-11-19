@@ -1,91 +1,127 @@
 import secrets
 cards = [{'name': 'the fool',
           'meaning': 'be brave, take a light-hearted approach, try something new, and trust the journey',
-          'picture': '0'
+          'number': '0',
+          'picture': r'''
+            +----------------------+
+            | 0 - The Fool         |
+            |                      |
+            |       O              |
+            |      /|\    <- The Fool
+            |      / \             |
+            |     / | \            |
+            |    *  |  *  <- Backpack
+            |       |              |
+            |      / \             |
+            |     /   \            |
+            |                      |
+            +----------------------+
+          '''
           },
          {'name': 'the magician',
           'meaning': '',
-          'picture': '1'
+          'number': '1',
+          'picture': ''
           },
          {'name': 'the high priestess',
           'meaning': '',
-          'picture': '2'
+          'number': '2',
+          'picture': ''
           },
          {'name': 'the empress',
           'meaning': '',
-          'picture': '3'
+          'number': '3',
+          'picture': ''
           },
          {'name': 'the emperor',
           'meaning': '',
-          'picture': '4'
+          'number': '4',
+          'picture': ''
           },
          {'name': 'the hierophant',
           'meaning': '',
-          'picture': '5'
+          'number': '5',
+          'picture': ''
           },
          {'name': 'the lovers',
           'meaning': '',
-          'picture': '6'
+          'number': '6',
+          'picture': ''
           },
          {'name': 'the chariot',
           'meaning': '',
-          'picture': '7'
+          'number': '7',
+          'picture': ''
           },
          {'name': 'strength',
           'meaning': '',
-          'picture': '8'
+          'number': '8',
+          'picture': ''
           },
          {'name': 'the hermit',
           'meaning': '',
-          'picture': '9'
+          'number': '9',
+          'picture': ''
           },
          {'name': 'wheel of fortune',
           'meaning': '',
-          'picture': '10'
+          'number': '10',
+          'picture': ''
           },
          {'name': 'justice',
           'meaning': '',
-          'picture': '11'
+          'number': '11',
+          'picture': ''
           },
          {'name': 'the hanged man',
           'meaning': '',
-          'picture': '12'
+          'number': '12',
+          'picture': ''
           },
          {'name': 'death',
           'meaning': '',
-          'picture': '13'
+          'number': '13',
+          'picture': ''
           },
          {'name': 'temperance',
           'meaning': '',
-          'picture': '14'
+          'number': '14',
+          'picture': ''
           },
          {'name': 'the devil',
           'meaning': '',
-          'picture': '15'
+          'number': '15',
+          'picture': ''
           },
          {'name': 'the tower',
           'meaning': '',
-          'picture': '16'
+          'number': '16',
+          'picture': ''
           },
          {'name': 'the star',
           'meaning': '',
-          'picture': '17'
+          'number': '17',
+          'picture': ''
           },
          {'name': 'the moon',
           'meaning': '',
-          'picture': '18'
+          'number': '18',
+          'picture': ''
           },
          {'name': 'the sun',
           'meaning': '',
-          'picture': '19'
+          'number': '19',
+          'picture': ''
           },
          {'name': 'judgement',
           'meaning': '',
-          'picture': '20'
+          'number': '20',
+          'picture': ''
           },
          {'name': 'the world',
           'meaning': '',
-          'picture': '21'
+          'number': '21',
+          'picture': ''
           }]
 
 faith = secrets.choice(cards)
