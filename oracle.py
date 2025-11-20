@@ -89,4 +89,4 @@ cards = [{'name': 'the fool',
           }]
 
 faith = secrets.choice(cards)
-print(faith)
+print(f"your card for today is {faith['name']}: {faith['meaning']}")
